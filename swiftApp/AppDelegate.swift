@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //自定义根控制器
+        let viewcontroller = ViewController()
+        viewcontroller.title = "swift"
+        
+        let navigationcontroller = HXNavigationController(rootViewController:viewcontroller)
+        
+        //设置window属性
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.backgroundColor = UIColor.whiteColor()
+        window?.makeKeyAndVisible()
+        window?.rootViewController = navigationcontroller;
+        
         return true
     }
 

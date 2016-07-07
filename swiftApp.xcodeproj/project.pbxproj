@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE24ACF71D24B4490000C8BB /* HXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24ACF61D24B4490000C8BB /* HXNavigationController.swift */; };
+		EE4FE75D1D22827C006601FF /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FE75C1D22827C006601FF /* AnimationViewController.swift */; };
 		EE80DBC11C103ACC00482353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DBC01C103ACC00482353 /* AppDelegate.swift */; };
 		EE80DBC31C103ACC00482353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DBC21C103ACC00482353 /* ViewController.swift */; };
 		EE80DBC61C103ACC00482353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE80DBC41C103ACC00482353 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE24ACF61D24B4490000C8BB /* HXNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXNavigationController.swift; sourceTree = "<group>"; };
+		EE4FE75C1D22827C006601FF /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		EE80DBBD1C103ACC00482353 /* swiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE80DBC01C103ACC00482353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE80DBC21C103ACC00482353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE24ACF51D24B38A0000C8BB /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
 		EE80DBB41C103ACC00482353 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +114,9 @@
 				EE80DBC71C103ACC00482353 /* Assets.xcassets */,
 				EE80DBC91C103ACC00482353 /* LaunchScreen.storyboard */,
 				EE80DBCC1C103ACC00482353 /* Info.plist */,
+				EE4FE75C1D22827C006601FF /* AnimationViewController.swift */,
+				EE24ACF51D24B38A0000C8BB /* Pictures */,
+				EE24ACF61D24B4490000C8BB /* HXNavigationController.swift */,
 			);
 			path = swiftApp;
 			sourceTree = "<group>";
@@ -193,6 +207,7 @@
 				TargetAttributes = {
 					EE80DBBC1C103ACC00482353 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QQ4CT72F56;
 					};
 					EE80DBD01C103ACC00482353 = {
 						CreatedOnToolsVersion = 7.1;
@@ -258,6 +273,8 @@
 			files = (
 				EE80DBC31C103ACC00482353 /* ViewController.swift in Sources */,
 				EE80DBC11C103ACC00482353 /* AppDelegate.swift in Sources */,
+				EE4FE75D1D22827C006601FF /* AnimationViewController.swift in Sources */,
+				EE24ACF71D24B4490000C8BB /* HXNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = swiftApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyCompany.swiftApp;
@@ -410,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = swiftApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyCompany.swiftApp;
@@ -484,6 +503,7 @@
 				EE80DBE71C103ACC00482353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE80DBE81C103ACC00482353 /* Build configuration list for PBXNativeTarget "swiftAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +512,7 @@
 				EE80DBEA1C103ACC00482353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE80DBEB1C103ACC00482353 /* Build configuration list for PBXNativeTarget "swiftAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +521,7 @@
 				EE80DBED1C103ACC00482353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
