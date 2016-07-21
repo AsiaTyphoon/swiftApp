@@ -26,7 +26,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.tableView()
         
         print("viewDidLoad")
-    }
+        
+    
+        
+     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -90,6 +93,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     }
     
+    //MARK: - UITableViewDelegate
     
     func tableView() -> Void {
         

@@ -18,14 +18,45 @@ class AnimationViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.whiteColor()
         self.createbtn()
+        
+        let btnarr:NSArray = ["qq", "ww", "ee", "rr", "tt"]
+        
+        
+        for index in btnarr {
+            print(index)
+            
+            let btn = UIButton(frame: CGRect(x: 100, y: 100+btnarr.indexOfObject(index)*60, width: 100, height: 50))
+//            let obj:String = index as! String
+            
+            btn.tag = btnarr.indexOfObject(index)
+            btn.backgroundColor = UIColor.redColor()
+            btn.setTitle(index as? String, forState: UIControlState.Normal)
+            btn.addTarget(self, action: #selector(btnsAction(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+            
+            objc_setAssociatedObject(btn, "ddd", "bindObj", objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            
+            self.view.addSubview(btn)
+            
+        }
     }
 
+    func btnsAction(btn: UIButton) -> Void {
+       
+        /*
+        let bind = objc_getAssociatedObject(btn, "ddd") as! String
+        
+        print(bind)
+         */
+        
+        print(btn.tag)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    
+    // MARK: - btn
 
     func createbtn() -> Void {
     

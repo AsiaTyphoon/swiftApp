@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE24ACF71D24B4490000C8BB /* HXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24ACF61D24B4490000C8BB /* HXNavigationController.swift */; };
 		EE4FE75D1D22827C006601FF /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FE75C1D22827C006601FF /* AnimationViewController.swift */; };
+		EE59E75B1D2DFB5600417406 /* HXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59E7591D2DFB5600417406 /* HXNavigationController.swift */; };
+		EE59E75C1D2DFB5600417406 /* HXTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59E75A1D2DFB5600417406 /* HXTabBarController.swift */; };
+		EE59E76B1D2E31D500417406 /* tabbar_audio_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE59E7651D2E31D500417406 /* tabbar_audio_black@2x.png */; };
+		EE59E76C1D2E31D500417406 /* tabbar_audio_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE59E7661D2E31D500417406 /* tabbar_audio_white@2x.png */; };
+		EE59E76D1D2E31D500417406 /* tabbar_music_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE59E7671D2E31D500417406 /* tabbar_music_black@2x.png */; };
+		EE59E76E1D2E31D500417406 /* tabbar_music_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE59E7681D2E31D500417406 /* tabbar_music_white@2x.png */; };
+		EE59E76F1D2E31D500417406 /* tabbar_photo_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE59E7691D2E31D500417406 /* tabbar_photo_black@2x.png */; };
+		EE59E7701D2E31D500417406 /* tabbar_photo_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE59E76A1D2E31D500417406 /* tabbar_photo_white@2x.png */; };
 		EE80DBC11C103ACC00482353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DBC01C103ACC00482353 /* AppDelegate.swift */; };
 		EE80DBC31C103ACC00482353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DBC21C103ACC00482353 /* ViewController.swift */; };
 		EE80DBC61C103ACC00482353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE80DBC41C103ACC00482353 /* Main.storyboard */; };
@@ -36,8 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EE24ACF61D24B4490000C8BB /* HXNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXNavigationController.swift; sourceTree = "<group>"; };
 		EE4FE75C1D22827C006601FF /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		EE59E7591D2DFB5600417406 /* HXNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXNavigationController.swift; sourceTree = "<group>"; };
+		EE59E75A1D2DFB5600417406 /* HXTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXTabBarController.swift; sourceTree = "<group>"; };
+		EE59E7651D2E31D500417406 /* tabbar_audio_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_audio_black@2x.png"; sourceTree = "<group>"; };
+		EE59E7661D2E31D500417406 /* tabbar_audio_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_audio_white@2x.png"; sourceTree = "<group>"; };
+		EE59E7671D2E31D500417406 /* tabbar_music_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_music_black@2x.png"; sourceTree = "<group>"; };
+		EE59E7681D2E31D500417406 /* tabbar_music_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_music_white@2x.png"; sourceTree = "<group>"; };
+		EE59E7691D2E31D500417406 /* tabbar_photo_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_photo_black@2x.png"; sourceTree = "<group>"; };
+		EE59E76A1D2E31D500417406 /* tabbar_photo_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_photo_white@2x.png"; sourceTree = "<group>"; };
 		EE80DBBD1C103ACC00482353 /* swiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE80DBC01C103ACC00482353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE80DBC21C103ACC00482353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,8 +95,39 @@
 		EE24ACF51D24B38A0000C8BB /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				EE59E75E1D2E2FA800417406 /* TabBarIcon */,
 			);
 			path = Pictures;
+			sourceTree = "<group>";
+		};
+		EE59E7581D2DFB5600417406 /* MainControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE59E7591D2DFB5600417406 /* HXNavigationController.swift */,
+				EE59E75A1D2DFB5600417406 /* HXTabBarController.swift */,
+				EE59E75D1D2DFB8500417406 /* TabBarControllers */,
+			);
+			path = MainControllers;
+			sourceTree = "<group>";
+		};
+		EE59E75D1D2DFB8500417406 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		EE59E75E1D2E2FA800417406 /* TabBarIcon */ = {
+			isa = PBXGroup;
+			children = (
+				EE59E7651D2E31D500417406 /* tabbar_audio_black@2x.png */,
+				EE59E7661D2E31D500417406 /* tabbar_audio_white@2x.png */,
+				EE59E7671D2E31D500417406 /* tabbar_music_black@2x.png */,
+				EE59E7681D2E31D500417406 /* tabbar_music_white@2x.png */,
+				EE59E7691D2E31D500417406 /* tabbar_photo_black@2x.png */,
+				EE59E76A1D2E31D500417406 /* tabbar_photo_white@2x.png */,
+			);
+			path = TabBarIcon;
 			sourceTree = "<group>";
 		};
 		EE80DBB41C103ACC00482353 = {
@@ -115,8 +160,8 @@
 				EE80DBC91C103ACC00482353 /* LaunchScreen.storyboard */,
 				EE80DBCC1C103ACC00482353 /* Info.plist */,
 				EE4FE75C1D22827C006601FF /* AnimationViewController.swift */,
+				EE59E7581D2DFB5600417406 /* MainControllers */,
 				EE24ACF51D24B38A0000C8BB /* Pictures */,
-				EE24ACF61D24B4490000C8BB /* HXNavigationController.swift */,
 			);
 			path = swiftApp;
 			sourceTree = "<group>";
@@ -244,7 +289,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE59E76B1D2E31D500417406 /* tabbar_audio_black@2x.png in Resources */,
 				EE80DBCB1C103ACC00482353 /* LaunchScreen.storyboard in Resources */,
+				EE59E76D1D2E31D500417406 /* tabbar_music_black@2x.png in Resources */,
+				EE59E7701D2E31D500417406 /* tabbar_photo_white@2x.png in Resources */,
+				EE59E76F1D2E31D500417406 /* tabbar_photo_black@2x.png in Resources */,
+				EE59E76E1D2E31D500417406 /* tabbar_music_white@2x.png in Resources */,
+				EE59E76C1D2E31D500417406 /* tabbar_audio_white@2x.png in Resources */,
 				EE80DBC81C103ACC00482353 /* Assets.xcassets in Resources */,
 				EE80DBC61C103ACC00482353 /* Main.storyboard in Resources */,
 			);
@@ -271,10 +322,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE59E75C1D2DFB5600417406 /* HXTabBarController.swift in Sources */,
+				EE59E75B1D2DFB5600417406 /* HXNavigationController.swift in Sources */,
 				EE80DBC31C103ACC00482353 /* ViewController.swift in Sources */,
 				EE80DBC11C103ACC00482353 /* AppDelegate.swift in Sources */,
 				EE4FE75D1D22827C006601FF /* AnimationViewController.swift in Sources */,
-				EE24ACF71D24B4490000C8BB /* HXNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
